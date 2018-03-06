@@ -1,10 +1,14 @@
 # Component Based Development Using UI_Patterns
 A training workshop for people who develop websites using the component based approach.
 
-## Environment Setup (Do this first)
+## Local Environment Setup (Do this first)
 Before anything else, follow these steps to get your local envrionment setup.
 
 1. Clone or download this repo anywhere on your local machine
+
+```
+git clone https://github.com/mariohernandez/components
+```
 
 2. Install latest version of Drupal 8
 
@@ -16,7 +20,7 @@ Before anything else, follow these steps to get your local envrionment setup.
 
 4. Copy the `nashville` theme included in this repo into your Drupal's `/themes/custom/`
 
-5. Enable and make the nashville theme your default theme.
+5. Enable and make the *nashville* theme your default theme.
 
 ## Training Documentation
 
