@@ -1,0 +1,9 @@
+eyebrow:
+  css:
+    component:
+      src/components/eyebrow/eyebrow.css: {}
+
+heading:
+  css:
+    component:
+      src/components/heading/heading.css: {}
