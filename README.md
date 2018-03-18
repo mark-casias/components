@@ -15,8 +15,14 @@ git clone https://github.com/mariohernandez/components
 3. Download and enable the following Drupal modules:
     * [Components Libraries](https://www.drupal.org/project/components)
     * [Paragraphs](https://www.drupal.org/project/paragraphs)
+    * [Display Suite](https://www.drupal.org/project/ds)
     * [UI_Patterns](https://www.drupal.org/project/ui_patterns)
+      * UI Pattern Display Suite
+      * UI Patterns Layouts
+      * UI Patterns Library
+      * UI Patterns Views
     * [Admin Toolbar](https://www.drupal.org/project/admin_toolbar)
+      * Admin Toolbar Extra Tools
 
 4. Copy the `nashville` theme included in this repo into your Drupal's `/themes/custom/`
 
