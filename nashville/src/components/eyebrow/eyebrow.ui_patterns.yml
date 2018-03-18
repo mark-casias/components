@@ -1,9 +1,0 @@
-eyebrow:
-  label: Eyebrow
-  description: A simple eyebrow pattern.
-  fields:
-    eyebrow:
-      type: text
-      label: Eyebrow label
-      description: Label for eyebrow pattern
-      preview: Front-End Development

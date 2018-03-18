@@ -1,9 +1,0 @@
-heading:
-  label: heading
-  description: A simple heading pattern.
-  fields:
-    heading:
-      type: text
-      label: heading label
-      description: Label for heading pattern
-      preview: Welcome to DrupalCon Nashville 2018
