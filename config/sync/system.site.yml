@@ -1,11 +1,11 @@
-uuid: b0eaa510-9ecf-4968-b9bb-a7c364cb9e81
-name: Components
-mail: admin@example.com
+uuid: 8f776f9e-0c22-428a-921a-9d4114ef4a1f
+name: 'Drupal 8'
+mail: email@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

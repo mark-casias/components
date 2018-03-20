@@ -1,0 +1,19 @@
+quote:
+  label: Quote
+  description: A simple quote pattern
+  fields:
+    author:
+      type: text
+      label: Quote author
+      description: Name of quote author
+      preview: John Smith
+    body:
+      type: text
+      label: Quote body
+      description: Quote body text
+      preview: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+  libraries:
+    - quote:
+        css:
+          component:
+            quote.css: {}

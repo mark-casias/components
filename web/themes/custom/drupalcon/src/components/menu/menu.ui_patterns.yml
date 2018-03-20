@@ -1,0 +1,21 @@
+menu:
+  label: Main Menu
+  description: Main menu pattern
+  fields:
+    links:
+      label: Links
+      type: array
+      description: An array of links. Each link has a url, a title.
+      preview:
+        -
+          url: http://example.com
+          title: Home
+        -
+          url: http://example.com
+          title: About
+        -
+          url: http://example.com
+          title: Blog
+        -
+          url: http://example.com
+          title: Contact

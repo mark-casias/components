@@ -1,0 +1,14 @@
+body:
+  label: Body
+  description: Body field for hero
+  fields:
+    body:
+      type: text
+      label: Body
+      description: Body content
+      preview: Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  libraries:
+    - body:
+        css:
+          component:
+            body.css: {}

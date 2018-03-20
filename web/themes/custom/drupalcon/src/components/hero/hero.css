@@ -1,0 +1,14 @@
+.hero {
+  position: relative;
+}
+
+.hero__content {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  max-width: 800px;
+}
+ 
+.hero__body {
+  color: orange;
+}

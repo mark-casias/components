@@ -1,0 +1,17 @@
+button:
+  label: Button
+  description: A button.
+  fields:
+    text:
+      type: string
+      label: Text
+      preview: Read more
+    url:
+      type: string
+      label: URL
+      preview: https://mediacurrent.com
+  libraries:
+    - button:
+        css:
+          component:
+            button.css: {}

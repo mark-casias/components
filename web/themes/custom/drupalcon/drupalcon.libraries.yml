@@ -1,0 +1,10 @@
+global:
+  css:
+    base:
+      src/global/typography.css: {}
+      src/global/base.css: {}
+
+webfonts:
+  css:
+    theme:
+      'https://fonts.googleapis.com/css?family=Open+Sans|Merriweather': { type: external, minified: true }

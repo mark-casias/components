@@ -1,0 +1,38 @@
+hero:
+  label: Hero
+  description: A simple hero pattern
+  fields:
+    heading:
+      type: text
+      label: Hero heading
+      description: hero text
+      preview:
+        type: pattern_preview
+        id: heading
+    body:
+      type: text
+      label: Hero body
+      description: Hero body text
+      preview: 
+        type: pattern_preview
+        id: body
+    image:
+      type: render
+      label: Image
+      description: Hero image
+      preview:
+        type: pattern_preview
+        id: image
+        width: 960
+        attributes: {alt: "Person surfing on wave"}
+    button:
+      label: Button
+      description: Hero button
+      preview: 
+        type: pattern_preview
+        id: button
+  libraries:
+    - hero:
+        css:
+          component:
+            hero.css: {}
