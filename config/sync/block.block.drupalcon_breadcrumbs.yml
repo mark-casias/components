@@ -1,0 +1,22 @@
+uuid: c741279c-b5a3-467b-935e-ff190bb8d0d4
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalcon
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: drupalcon_breadcrumbs
+theme: drupalcon
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
