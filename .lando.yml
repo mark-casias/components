@@ -1,4 +1,4 @@
 name: component-training
 recipe: drupal8
 config:
-  webroot: web
+  webroot: ./web
