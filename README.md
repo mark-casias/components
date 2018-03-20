@@ -18,7 +18,7 @@ Before anything else, follow these steps to get your local envrionment setup.
 
 3. Install Drupal
 
-`lando drush site-install standard --account-name=admin --account-pass=admin --db-url='mysql://drupal8:drupal8@database/drupal8' --site-name=Components`
+`lando drush site-install config_installer --account-name=admin --account-pass=admin --db-url='mysql://drupal8:drupal8@database/drupal8' --site-name=Components`
 
 5. Train your dragon.
 
