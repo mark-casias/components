@@ -1,0 +1,18 @@
+image:
+  label: Image
+  description: A simple image pattern
+  fields:
+    image:
+      type: render
+      label: Image
+      description: Hero image
+      preview:
+        theme: image
+        uri: /web/themes/custom/drupalcon/src/components/hero/assets/surf.jpg
+        width: 960
+        attributes: {alt: "Surfing person"}
+  libraries:
+    - image:
+        css:
+          component:
+            image.css: {}

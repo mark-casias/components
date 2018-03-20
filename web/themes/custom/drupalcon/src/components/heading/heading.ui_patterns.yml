@@ -1,0 +1,14 @@
+heading:
+  label: Heading
+  description: A simple heading pattern
+  fields:
+    title:
+      type: text
+      label: Title field
+      description: Title field for heading pattern
+      preview: The Beautiful Scape
+  libraries:
+    - heading:
+        css:
+          component:
+            heading.css: {}
