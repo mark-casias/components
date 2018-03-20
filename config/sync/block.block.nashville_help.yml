@@ -1,0 +1,22 @@
+uuid: 0c95f92a-32f6-4fd4-8940-37b627a6e71a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - nashville
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: nashville_help
+theme: nashville
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
