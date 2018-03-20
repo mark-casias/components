@@ -4,29 +4,24 @@ A training workshop for people who develop websites using the component based ap
 ## Local Environment Setup (Do this first)
 Before anything else, follow these steps to get your local envrionment setup.
 
-1. Install latest version of Drupal 8
+1. Install Lando
 
-2. Download and enable the following Drupal modules:
-    * [Components Libraries](https://www.drupal.org/project/components)
-    * [Paragraphs](https://www.drupal.org/project/paragraphs)
-    * [Display Suite](https://www.drupal.org/project/ds)
-    * [UI_Patterns](https://www.drupal.org/project/ui_patterns)
-      * UI Pattern Display Suite
-      * UI Patterns Layouts
-      * UI Patterns Library
-      * UI Patterns Views
-    * [Admin Toolbar](https://www.drupal.org/project/admin_toolbar)
-      * Admin Toolbar Extra Tools
+For Mac OS, download the latest version on [GitHub](https://github.com/lando/lando/releases).
+[More info and other platforms](https://docs.devwithlando.io/installation/installing.html)
 
-3. Clone or download this repo anywhere on your local machine
+2. Clone or download this repo anywhere on your local machine
 
-```
-git clone https://github.com/mariohernandez/components
-```
+`git clone https://github.com/mariohernandez/components`
 
-4. Copy the `nashville` theme included in this repo into your Drupal's `/themes/custom/`
+3. Start Lando
 
-5. Enable and make the *nashville* theme your default theme.
+`lando start`
+
+4. Install Drupal
+
+`lando drush site-install config_installer --account-name=admin --account-pass=admin --db-url='mysql://drupal8:drupal8@database/drupal8' --site-name=Components`
+
+5. Train your dragon.
 
 ## Training Documentation
 

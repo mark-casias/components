@@ -1,0 +1,22 @@
+uuid: 284b6f2c-ae8e-4946-8b9d-cb5a3925fb48
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nashville
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: nashville_messages
+theme: nashville
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
