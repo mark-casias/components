@@ -24,15 +24,13 @@ git clone https://github.com/mariohernandez/components
 
 4. Start Lando
 
-Change into the directory of the repo and run this command:
+Change into the directory of the repo to run all commands below:
 
 ```
 lando start
 ```
 
 5. Install all PHP Dependencies with Composer
-
-Still inside the repo's root directory
 
 
 ```
