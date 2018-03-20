@@ -32,7 +32,6 @@ lando start
 
 5. Install all PHP Dependencies with Composer
 
-
 ```
 composer install
 ```
