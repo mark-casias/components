@@ -1,11 +1,11 @@
 menu:
-  label: Main Menu
-  description: Main menu pattern
+  label: Main Navigation
+  description: The main site menu.
   fields:
     links:
-      label: Links
       type: array
-      description: An array of links. Each link has a url, a title.
+      label: Menu Link
+      description: Menu links.
       preview:
         -
           url: http://example.com
@@ -19,3 +19,8 @@ menu:
         -
           url: http://example.com
           title: Contact
+  libraries:
+    - menu:
+       css:
+         component:
+           menu.css: {}
