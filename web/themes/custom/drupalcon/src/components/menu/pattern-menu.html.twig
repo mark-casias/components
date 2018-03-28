@@ -1,9 +1,17 @@
-<ul class="footer__legal-menu">
-  {% for link in links %}
-    <li class="footer__legal-menu--item">
-      <a href="{{ link.url }}" class="footer__legal-menu--link">
-        {{ link.title }}
-      </a>
+<nav class="main-nav">
+  <ul {{ attributes.addClass('menu') }}>
+    {% for link in links %}
+      {%
+        set classes = [
+          'menu-item',
+          item.is_expanded ? 'menu-item--expanded',
+          item.is_collapsed ? 'menu-item--collapsed',
+          item.in_active_trail ? 'menu-item--active-trail',
+        ]
+      %}
+    <li {{ link.attributes.addClass(classes) }}>
+      {{ link(link.title, link.url) }}
     </li>
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </ul>
+</nav>

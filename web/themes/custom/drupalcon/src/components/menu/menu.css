@@ -1,0 +1,22 @@
+.main-nav {
+  padding: 1em 0;
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.main-nav .menu-item {
+  padding: 0 0.5em;
+  margin: 0 0.5em;
+}
+
+.main-nav a {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
